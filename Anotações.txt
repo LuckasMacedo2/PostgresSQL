@@ -1,0 +1,29 @@
+PostgreSQL -> Sistema gerenciador de banco de dados objeto relacional
+Tem linguagem procedural
+Indexação por texto
+Open Source
+Comparavel com o Orcale, SQL Server e MySQL
+
+SQL = Linguagem de consulta estrutural
+	DML -> Linguagem de manipulação de dados: INSERT, UPDATE e DELETE
+	DDL -> Linguagem de definição de dados: CREATE e DROP
+	DCL -> Linguagem de controle de dados: GRANT - autoriza o usuário executar comandos e REVOKE - remove ou restringe a capacidade de um usuáio de executar comandos
+	DTL -> Linguagem de transação de dados: BEGIN WORK, BEGIN TRANSACTION, COMMIT, ROLLBACK
+	DQL -> Linguagem de consulta de dados: SELECT
+		Cláusulas -> FROM, WHERE etc	
+		Operadores lógicos -> AND, OR, NOT
+		Operadores relacionais -> <, >, <=, >=, = e <>
+		Funções de agregação -> AVG, COUNT, SUM, MAX, MIN etc
+
+pg_hba -> autenticação no postgress. A configuração fica ao final do arquivo
+pg_identy -> Mapea o login para o postgres
+
+psql -> configurações do postegres
+	psql -c "comando" -> executa um comando SQL no terminal
+
+Gerenciando conexões ->
+
+Database roles
+	Recebe o papel e o que será feito por aquele usuário
+	Está ligada a permissões
+	Ao instalar o banco é criada uma role de nome postgres
